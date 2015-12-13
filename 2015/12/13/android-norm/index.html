@@ -30,7 +30,7 @@
 方法尽量不超过50行。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android 开发规范">
-<meta property="og:url" content="http://yoursite.com/2015/12/13/android-norm1/index.html">
+<meta property="og:url" content="http://yoursite.com/2015/12/13/android-norm/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="1 介绍好的开发团队应该是具有同样的语言、同样的理念、同样的规范去做同一件事。
 1.1 目的
@@ -55,7 +55,7 @@
 避免超过 500 行的源文件。
 
 方法尽量不超过50行。">
-<meta property="og:updated_time" content="2015-12-13T09:58:33.000Z">
+<meta property="og:updated_time" content="2015-12-13T10:03:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android 开发规范">
 <meta name="twitter:description" content="1 介绍好的开发团队应该是具有同样的语言、同样的理念、同样的规范去做同一件事。
@@ -126,9 +126,9 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-android-norm1" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-android-norm" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2015/12/13/android-norm1/" class="article-date">
+    <a href="/2015/12/13/android-norm/" class="article-date">
   <time datetime="2015-12-12T16:00:00.000Z" itemprop="datePublished">2015-12-13</time>
 </a>
     
@@ -184,21 +184,18 @@ com.automan.adapter
 </ul>
 <h4 id="2-1-2__u7C7B_u7684_u547D_u540D_u89C4_u8303"><a href="#2-1-2__u7C7B_u7684_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.2 类的命名规范"></a>2.1.2 类的命名规范</h4><ul>
 <li><p>类的命名规范：类名必须是名词，首字母大写，采用驼峰命名法。类名应该简单清晰。 如果是Android SDK提供的Android应用组成部分，那么类名应该是类的作用的英文全称或者缩写＋ Android SDK基类的名字。</p>
-<pre><code>例子： 
-
-Activity类名字应该是 类似 MainActivity, NaviActivity （Navigation， 导航缩写Navi）, TextActivity, BookActivity
-
+<p>  例子： </p>
+<pre><code>Activity类名字应该是类似  MainActivity, NaviActivity （Navigation， 导航缩写Navi）, TextActivity, BookActivity
 Service类名字缩写应该是类似 DownloadService…
-
-每个类完成后应该有作者姓名和联系方式的注释，对自己的代码负责。如
- /**
-  *User: YedongChen
-  * Date: 15-12-13
-  * Time: 15：32
-  * Email: cyd1058@126.com
-  * BaseActivity: 所有activity的基类   该类中抽取一些共有的方法 对activity 进行统一管理
-  */  
- public class BaseActivity extends Activity{}
+</code></pre><p>   每个类完成后应该有作者姓名和联系方式的注释，对自己的代码负责。如</p>
+<pre><code>/**
+ *User: YedongChen
+ * Date: 15-12-13
+ * Time: 15：32
+ * Email: cyd1058@126.com
+ * BaseActivity: 所有activity的基类   该类中抽取一些共有的方法 对activity 进行统一管理
+ */  
+public class BaseActivity extends Activity{}
 </code></pre><p>不一定安照这个格式，但是请写上名字和该模块的功能描述。（可通过建立注释模板实现）</p>
 <h4 id="2-1-3__u63A5_u53E3_u547D_u540D_u89C4_u8303"><a href="#2-1-3__u63A5_u53E3_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.3 接口命名规范"></a>2.1.3 接口命名规范</h4></li>
 <li>命名规则与类一样采用大驼峰命名法，多以able或ible结尾。例如：<br>interface Runable | interface Accessible <h4 id="2-1-4__u6210_u5458_u53D8_u91CF_u547D_u540D_u89C4_u8303"><a href="#2-1-4__u6210_u5458_u53D8_u91CF_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.4 成员变量命名规范"></a>2.1.4 成员变量命名规范</h4></li>
@@ -318,7 +315,7 @@ FrameLayout        Fly
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/12/13/android-norm1/" data-id="cii4cr68n0000nes698949a6x" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/12/13/android-norm/" data-id="cii4d67f80000qbs6y6nnyaes" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li></ul>
@@ -380,7 +377,7 @@ FrameLayout        Fly
       <ul>
         
           <li>
-            <a href="/2015/12/13/android-norm1/">Android 开发规范</a>
+            <a href="/2015/12/13/android-norm/">Android 开发规范</a>
           </li>
         
           <li>
