@@ -5,16 +5,82 @@
   
   <title>Android 开发规范 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+  <meta name="description" content="1 介绍好的开发团队应该是具有同样的语言、同样的理念、同样的规范去做同一件事。
+1.1 目的
+减少维护花费。
+
+提高可读性。
+
+加快工作交接。
+
+减少名字增生。
+
+降低缺陷引入的机会。
+
+
+1.2 术语和定义
+强制：编程时必须遵守的规定，含有强制字样或字体用加粗式样标注。
+
+推荐：编程时推荐遵守的规定，字体用普通式样标注。
+
+
+2 文件组织
+避免超过 500 行的源文件。
+
+方法尽量不超过50行。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android 开发规范">
 <meta property="og:url" content="http://yoursite.com/2015/12/13/android-norm1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description">
-<meta property="og:updated_time" content="2015-12-13T09:51:47.000Z">
+<meta property="og:description" content="1 介绍好的开发团队应该是具有同样的语言、同样的理念、同样的规范去做同一件事。
+1.1 目的
+减少维护花费。
+
+提高可读性。
+
+加快工作交接。
+
+减少名字增生。
+
+降低缺陷引入的机会。
+
+
+1.2 术语和定义
+强制：编程时必须遵守的规定，含有强制字样或字体用加粗式样标注。
+
+推荐：编程时推荐遵守的规定，字体用普通式样标注。
+
+
+2 文件组织
+避免超过 500 行的源文件。
+
+方法尽量不超过50行。">
+<meta property="og:updated_time" content="2015-12-13T09:55:43.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android 开发规范">
-<meta name="twitter:description">
+<meta name="twitter:description" content="1 介绍好的开发团队应该是具有同样的语言、同样的理念、同样的规范去做同一件事。
+1.1 目的
+减少维护花费。
+
+提高可读性。
+
+加快工作交接。
+
+减少名字增生。
+
+降低缺陷引入的机会。
+
+
+1.2 术语和定义
+强制：编程时必须遵守的规定，含有强制字样或字体用加粗式样标注。
+
+推荐：编程时推荐遵守的规定，字体用普通式样标注。
+
+
+2 文件组织
+避免超过 500 行的源文件。
+
+方法尽量不超过50行。">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -63,7 +129,7 @@
         <section id="main"><article id="post-android-norm1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/12/13/android-norm1/" class="article-date">
-  <time datetime="2015-12-13T09:51:47.000Z" itemprop="datePublished">2015-12-13</time>
+  <time datetime="2015-12-13T09:55:43.000Z" itemprop="datePublished">2015-12-13</time>
 </a>
     
   </div>
@@ -82,13 +148,181 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h2 id="1__u4ECB_u7ECD"><a href="#1__u4ECB_u7ECD" class="headerlink" title="1 介绍"></a>1 介绍</h2><p>好的开发团队应该是具有同样的语言、同样的理念、同样的规范去做同一件事。</p>
+<h3 id="1-1__u76EE_u7684"><a href="#1-1__u76EE_u7684" class="headerlink" title="1.1 目的"></a>1.1 目的</h3><ul>
+<li><p>减少维护花费。</p>
+</li>
+<li><p>提高可读性。</p>
+</li>
+<li><p>加快工作交接。</p>
+</li>
+<li><p>减少名字增生。</p>
+</li>
+<li><p>降低缺陷引入的机会。</p>
+</li>
+</ul>
+<h3 id="1-2__u672F_u8BED_u548C_u5B9A_u4E49"><a href="#1-2__u672F_u8BED_u548C_u5B9A_u4E49" class="headerlink" title="1.2 术语和定义"></a>1.2 术语和定义</h3><ul>
+<li><p>强制：编程时必须遵守的规定，含有强制字样或字体用<strong>加粗</strong>式样标注。</p>
+</li>
+<li><p>推荐：编程时推荐遵守的规定，字体用普通式样标注。</p>
+</li>
+</ul>
+<h2 id="2__u6587_u4EF6_u7EC4_u7EC7"><a href="#2__u6587_u4EF6_u7EC4_u7EC7" class="headerlink" title="2 文件组织"></a>2 文件组织</h2><ul>
+<li><p>避免超过 500 行的源文件。</p>
+</li>
+<li><p>方法尽量不超过50行。</p>
+</li>
+</ul>
+<h3 id="2-1__u547D_u540D_u89C4_u8303"><a href="#2-1__u547D_u540D_u89C4_u8303" class="headerlink" title="2.1 命名规范"></a>2.1 命名规范</h3><ul>
+<li>整体基则：统一使用UTF-8编码，避免乱码问题。代码中不出现中文和拼音，最多注释中可以出现中文。<br>类和方法必须有注释wend文档</li>
+</ul>
+<h4 id="2-1-1__u5305_u7684_u547D_u540D_u89C4_u8303"><a href="#2-1-1__u5305_u7684_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.1 包的命名规范"></a>2.1.1 包的命名规范</h4><ul>
+<li><p>一级包名为com，二级包名为xxx（可以是公司域名或者个人命名），三级包名根据应用进                   行命名，四级包名为模块名或层级名。如：</p>
+<pre><code>com.automan.activity 
+com.automan.adapter
+</code></pre></li>
+</ul>
+<h4 id="2-1-2__u7C7B_u7684_u547D_u540D_u89C4_u8303"><a href="#2-1-2__u7C7B_u7684_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.2 类的命名规范"></a>2.1.2 类的命名规范</h4><ul>
+<li><p>类的命名规范：类名必须是名词，首字母大写，采用驼峰命名法。类名应该简单清晰。 如果是Android SDK提供的Android应用组成部分，那么类名应该是类的作用的英文全称或者缩写＋ Android SDK基类的名字。</p>
+<pre><code>例子： 
+
+Activity类名字应该是 类似 MainActivity, NaviActivity （Navigation， 导航缩写Navi）, TextActivity, BookActivity
+
+Service类名字缩写应该是类似 DownloadService…
+
+每个类完成后应该有作者姓名和联系方式的注释，对自己的代码负责。如
+ /**
+  *User: YedongChen
+  * Date: 15-12-13
+  * Time: 15：32
+  * Email: cyd1058@126.com
+  * BaseActivity: 所有activity的基类   该类中抽取一些共有的方法 对activity 进行统一管理
+  */  
+ public class BaseActivity extends Activity{}
+</code></pre><p>不一定安照这个格式，但是请写上名字和该模块的功能描述。（可通过建立注释模板实现）</p>
+<h4 id="2-1-3__u63A5_u53E3_u547D_u540D_u89C4_u8303"><a href="#2-1-3__u63A5_u53E3_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.3 接口命名规范"></a>2.1.3 接口命名规范</h4></li>
+<li>命名规则与类一样采用大驼峰命名法，多以able或ible结尾。例如：<br>interface Runable | interface Accessible <h4 id="2-1-4__u6210_u5458_u53D8_u91CF_u547D_u540D_u89C4_u8303"><a href="#2-1-4__u6210_u5458_u53D8_u91CF_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.4 成员变量命名规范"></a>2.1.4 成员变量命名规范</h4></li>
+<li>采用小驼峰命名法。采用有意义的命名（meaningful names）。变量的名字必须准确反映它的含义和内容.</li>
+<li><p>除了临时使用的如循环变量等以外，不要使用单字符的变量名。对于使用单字符的临时变量名，建议循环变量名用i,j,k，n表示整数。</p>
+<h4 id="2-1-5__u65B9_u6CD5_u547D_u540D_u89C4_u8303"><a href="#2-1-5__u65B9_u6CD5_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.5 方法命名规范"></a>2.1.5 方法命名规范</h4><p>采用小驼峰命名法。如有重载方法 重载方法应该放到一块。</p>
+<h4 id="2-1-6__u5E38_u91CF_u547D_u540D_u89C4_u8303"><a href="#2-1-6__u5E38_u91CF_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.6  常量命名规范"></a>2.1.6  常量命名规范</h4><p>全部大写，单词之间用下划线分隔。如</p>
+<pre><code>public static final int MIN_WIDTH = 4; 
+</code></pre><h4 id="2-1-7__u63A7_u4EF6_u547D_u540D_u89C4_u8303"><a href="#2-1-7__u63A7_u4EF6_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.7 控件命名规范"></a>2.1.7 控件命名规范</h4></li>
+<li><p>类中控件名称应该与xml布局id保持一致(可以去掉{module_name})。例如:</p>
+<pre><code>在布局文件中 Button 的id为: android:id=&quot;@+id/btn_pay&quot;
+private Button btn_pay;
+</code></pre></li>
+<li><p>命名模式为：{layout<em>name}</em>{view缩写}_{view的逻辑名称}，如：</p>
+<pre><code>主界面LinearLayout 的布局id –&gt; mainactivity_ll_content
+模块简称为qz的 ImageView 的布局id –&gt;mainactivity_iv_photo
+</code></pre><h4 id="2-1-8__u56FE_u7247_u8D44_u6E90_u6587_u4EF6_u547D_u540D_u89C4_u8303"><a href="#2-1-8__u56FE_u7247_u8D44_u6E90_u6587_u4EF6_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.8 图片资源文件命名规范"></a>2.1.8 图片资源文件命名规范</h4></li>
+<li><p>图标命名：{layout_name}<em>ic</em>{名称} 例如：</p>
+<pre><code>activity_home_ic_app.png
+</code></pre></li>
+<li><p>背景图片命名： {layout_name}<em>bg</em>{名称} 例如：</p>
+<pre><code>activity_home_navbar_highlight_normal.9.png
+</code></pre></li>
+<li><p>按钮Button命名： {layout_name}<em>btn</em>{名称} 例如：</p>
+<pre><code>activity_home_btn_login_normal.9.png
+</code></pre></li>
+<li><p>按钮checkbox图片命名：{layout_name}<em>checkbox</em>{名称} 例如：</p>
+<pre><code>activity_home_checkbox_cart_true.png
+</code></pre><h4 id="2-1-9__u5E03_u5C40_u6587_u4EF6_u547D_u540D_u89C4_u8303"><a href="#2-1-9__u5E03_u5C40_u6587_u4EF6_u547D_u540D_u89C4_u8303" class="headerlink" title="2.1.9 布局文件命名规范"></a>2.1.9 布局文件命名规范</h4></li>
+<li><p>全部小写，采用下划线命名法。<br>activity layout： activity_{名称} 例如：</p>
+<pre><code>activity_main.xml | activity_shopping.xml
+</code></pre></li>
+<li><p>fragment layout:fragment_{名称} 例如：</p>
+<pre><code>fragment_main.xml | fragment_shopping.xml
+</code></pre></li>
+<li><p>Dialog layout: dialog_{名称} 例如：</p>
+<pre><code>dialog_loading.xml
+</code></pre></li>
+<li><p>列表项布局命名：{activity_name}_list<em>item</em>{名称} 例如：</p>
+<pre><code>mainactivity_item_productdetail.xml
+</code></pre></li>
+<li><p>包含项布局命名：include_{名称} 例如：</p>
+<pre><code>include_head.xml
+</code></pre></li>
+<li><p>widget layout： widget_{名称} 例如：</p>
+<pre><code>widget_shopping_detail.xml
+</code></pre></li>
+</ul>
+<ul>
+<li>控件常用的缩写名称，如下所示：</li>
+</ul>
+<pre><code>组件名称         简写            组件名称         简写
+
+Button            Btn            RadioButton        Rbtn
+
+ImageButton        Ibtn        TextView        Tv
+
+ImageView        Iv            ListView        Lv
+
+ProgressBar        Pbar        EditText        Et
+
+ScrollView        Sv            CheckBox        Cb
+
+RelativeLayout    Rly            LinearLayout    Lly
+
+TableLayout        Tly            
+
+FrameLayout        Fly    
+</code></pre><h3 id="3__u67B6_u6784_u8BBE_u8BA1"><a href="#3__u67B6_u6784_u8BBE_u8BA1" class="headerlink" title="3 架构设计"></a>3 架构设计</h3><ul>
+<li>遵循 mvc模式  </li>
+<li>将共有的方法与属性进行抽取 形成父类</li>
+<li>遵循低耦合高内聚的原则</li>
+</ul>
+<h3 id="4_Android_u5F00_u53D1_u6CE8_u610F_u4E8B_u9879_u4E0E_u5F00_u53D1_u6280_u5DE7"><a href="#4_Android_u5F00_u53D1_u6CE8_u610F_u4E8B_u9879_u4E0E_u5F00_u53D1_u6280_u5DE7" class="headerlink" title="4 Android开发注意事项与开发技巧"></a>4 Android开发注意事项与开发技巧</h3><ul>
+<li>养成提交代码的习惯，每次提交之间需更新代码，以免造成冲突。对于提交的内容要做注释说明。</li>
+<li>尽量在声明局部变量的同时初始化。</li>
+<li>对于耗时的操作一定要放在子线程中去执行。如访问网络，数据库操作等.利用时间差 将耗时的操作分时间段执行提高性能。</li>
+<li>不在 Activity、Service、BroadcastReceiver 的生命周期等对响应时间敏感函数执行耗时操作，可适当 delay。</li>
+<li>在用静态变量的时候 一定要减少对对象的引用。否则容易造成内存泄露。</li>
+<li>使用Bitmap及时调用recycle()。虽然调用recycle()并不能保证立即释放占用的内存，但是可以加速Bitmap的内存的释放。</li>
+<li>activity中在一个View.OnClickListener中处理所有的逻辑 不建议让activity 或fragment 实现接口处理逻辑。</li>
+<li>逻辑判断一定要严谨。</li>
+<li>界面优化   <ul>
+<li>使用 include merge 标签  重用布局</li>
+<li>首次不需要使用的节点设置为 GONE 或使用 viewstub</li>
+<li>复杂布局可考虑用RelativeLayout </li>
+</ul>
+</li>
+<li>listview的优化<ul>
+<li>重用convertView</li>
+<li>使用ViewHolder</li>
+<li>分页加载</li>
+<li>通过监听Listview的状态实现滑动时不加载数据，停下来时加载数据</li>
+</ul>
+</li>
+<li>OOM异常的处理<ul>
+<li>建立图片缓存机制　利用LRU(Last Recently Use)算法。可利用第三方开源库实现  比如imageLoader、 fresco等。<ul>
+<li>用弱引用</li>
+<li>大的占内存的对象在不用的时候 回收。</li>
+<li>不要出现死循环的操作</li>
+<li>减少对象的初始化</li>
+<li>自定义控件，我们可以通过canvas.clipRect()来避免 OverDraw</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>内存优化<ul>
+<li>减少不必要的网络访问  能一次获取的数据就不多次获取</li>
+<li>用IntentService代替Service,用LocalBroadCast发送广播</li>
+<li>使用Application的Context。如果想保持一个长期生命的对象，并且这个对象需要一个Context，就可以使用Application对象。可以通过调用Context.getApplicationContext()方法或者Activity.getApplication()方法来获得Application对象。</li>
+<li>及时关闭资源</li>
+</ul>
+</li>
+</ul>
+<p>关于性能的优化 具体可参考<a href="http://www.trinea.cn/android/performance/" target="_blank" rel="external">http://www.trinea.cn/android/performance/</a></p>
+
       
     </div>
     <footer class="article-footer">
       <a data-url="http://yoursite.com/2015/12/13/android-norm1/" data-id="cii4cr68n0000nes698949a6x" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li></ul>
+
     </footer>
   </div>
   
@@ -116,7 +350,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android/">Android</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -125,7 +359,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      
+      <a href="/tags/Android/" style="font-size: 10px;">Android</a>
     </div>
   </div>
 
